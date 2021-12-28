@@ -22,7 +22,7 @@ moment_worker = []
 
 
 #start
-@ankit.on(events.NewMessage(pattern="^/start$"))
+@ankit.on(events.NewMessage(pattern="^/imran$"))
 async def start(event):
   await event.reply("^_^ Hey, Welcome To TAG Help Bot's Menu\nI can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
                     buttons=(
@@ -38,7 +38,7 @@ async def start(event):
                    )
 
 #help
-@ankit.on(events.NewMessage(pattern="^/help$"))
+@ankit.on(events.NewMessage(pattern="^/imrah$"))
 async def help(event):
   helptext = "**Tag Help Bot's Help Menu**\n\nCommand: /all \n You can use this command with text you want to tell others. \n`Example: /all Legend's Say's To ©ANKIT-OS™!` \nYou can use this command as an answer. any message Bot will tag users to replied message"
   await event.reply(helptext,
@@ -120,7 +120,7 @@ async def mentionall(event):
 
 # Cancel
 
-@ankit.on(events.NewMessage(pattern="^/cancel$"))
+@ankit.on(events.NewMessage(pattern="^/finish$"))
 async def cancel_spam(event):
   if not event.chat_id in spam_chats:
     return await event.respond('__There is no proccess on going...__')
