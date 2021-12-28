@@ -9,7 +9,7 @@
 
 <details>
   <summary> • ⚡INSTALLING⚡ • </summary>
-  <a href="https://heroku.com/deploy?template=https://github.com/ANKIT-OS/TAGGERBOT"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+  <a href="https://heroku.com/deploy?template=https://github.com/Islam766/TAGGERBOT"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
   
 </details>
 
